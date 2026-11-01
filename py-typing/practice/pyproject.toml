@@ -1,0 +1,6 @@
+[tool.mypy]
+python_version = "3.11"
+strict = true
+show_error_codes = true
+warn_unreachable = true
+files = ["typed_examples.py", "demo.py"]
